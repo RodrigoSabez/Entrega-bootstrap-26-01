@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*encabezado*/
+.encabezado{
+    border-top: 20px;
+    background-color: orangered;
+}
+h1{
+    font-size: 50px;
+    background-color: orangered;
+    height: 80px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center   
+}
+/*encabezado*/
+.logo{
+    position: relative;
+    left: 470px;
+}
+/*nav generico*/
+nav{
+    height:90px;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(../img/fuego.jpg);
+    
+}
+.rutas{
+    display: inline-block;
+    font-size: 18px;
+    padding: 25px;
+    justify-content: space-between;
+}
+/*nav generico*/
+/*main de todas las paginas*/
+main{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(230, 134, 9);
+    
+}
+.largocontacto{
+    height: 800px;
+}
+
+#padre{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    height: 500px;
+}
+/*main de todas las paginas*/
+/*footer generico*/
+footer{
+    top: 20px;
+    height: 140px;
+    background-color: black;
+    text-align: center;
+}
+.redes{
+    display: inline-block;
+    width: 220px;
+    justify-content: space-around
+
+
+}
+.titulo{
+    color: white;
+    text-align: center;
+    
+}
+/*footer generico*/
